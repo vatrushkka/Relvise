@@ -1,0 +1,459 @@
+/* ------------------------------ GENERAL ------------------------------ */
+
+@media (min-width: 1600px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1601px) and (max-width: 2000px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 750px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 900px) {
+    .container {
+        max-width: 70rem;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1000px) {
+    .container {
+        max-width: 80rem;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1200px) {
+    .container {
+        max-width: 90rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .header-description {
+        margin-top: 1.5rem;
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+}
+
+@media  (min-width: 751px) and (max-width: 900px) {
+ .header-description {
+        margin-top: 1.5rem;
+        font-size: 2rem;
+        line-height: 2.7rem;
+    }
+}
+
+@media  (min-width: 901px) and (max-width: 1200px) {
+    .header-description {
+        margin-top: 1.5rem;
+        font-size: 1.7rem;
+        line-height: 2.7rem;
+    }
+}
+
+/*!* ------------------------------ BUTTONS ------------------------------ *!*/
+
+@media (max-width: 700px) {
+    .btn {
+        padding: 1.7rem 4rem;
+        font-size: 2.2rem;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 900px) {
+    .btn {
+        padding: 1.4rem 3.5rem;
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1100px) {
+    .btn {
+        padding: 1.4rem 3.5rem;
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .btn-form {
+        border-radius: .5rem;
+        border: none;
+    }
+}
+
+/*!* -------------------- LINKS -------------------- *!*/
+
+/*!* -------------------- CARDS -------------------- *!*/
+
+@media (max-width: 750px){
+    .cards {
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 1100px) {
+    .cards-4 {
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 700px) {
+    .card__header--s {
+        font-size: 2.3rem;
+    }
+
+    .card__header--m {
+        font-size: 2.5rem;
+    }
+
+    .card__text--m {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+    }
+
+    .contact-icon {
+        width: 5.5rem;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 900px) {
+    .card__header--s {
+        font-size: 2rem;
+    }
+
+    .card__header--m {
+        font-size: 2.2rem;
+    }
+
+    .card__text--m {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+    }
+
+    .contact-icon {
+        width: 5.5rem;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1100px) {
+    .card__header--s {
+        font-size: 1.8rem;
+    }
+
+    .card__text--m {
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+    }
+
+    .contact-icon {
+        width: 5.5rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .card-primary,
+    .card-secondary,
+    .card-tertiary {
+        margin-bottom: 2.5rem;
+    }
+
+    .card-primary:last-child {
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .card-tertiary {
+        margin-bottom: 3rem;
+    }
+
+    .card-secondary {
+        width: 70%;
+    }
+
+    .card-tertiary {
+        width: 100%;
+    }
+}
+
+@media (max-width: 750px) {
+    .card-primary,
+    .card-primary:last-child {
+        width: 100%;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 1200px) {
+    .card-primary {
+        width: 48%;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1100px) {
+    .card-primary:last-child {
+        width: 100%;
+    }
+
+    .card-secondary, .card-tertiary {
+        width: 45%;
+    }
+}
+
+@media (min-width: 1101px) and (max-width: 1200px) {
+    .card-primary,
+    .card-secondary,
+    .card-tertiary {
+        margin-bottom: 2.5rem;
+    }
+
+    .card-primary:last-child {
+        width: 100%;
+    }
+
+    .card-secondary, .card-tertiary {
+        width: 48%;
+    }
+}
+
+@media (max-width: 920px) {
+    .contact-cards {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 800px) {
+    .card-contact {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 900px) {
+    .card-contact {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 920px) {
+    .contact-card,  .contact-card:nth-child(2) {
+        margin-bottom: 2rem;
+        width: 40rem;
+        padding: 4rem;
+        height: fit-content;
+    }
+}
+
+/* -------------------- HEADER -------------------- */
+
+@media (max-width: 750px) {
+    .navbar__logo {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1100px) {
+    .navbar {
+        max-width: 70rem;
+    }
+}
+
+@media (max-width: 1100px) {
+    .menu__icon {
+        display: inline-block;
+    }
+
+    .navbar__links {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .header__main {
+        padding: 5rem 0 12rem;
+    }
+
+    .header__text {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+}
+
+/* -------------------- CARDS -------------------- */
+
+@media (max-width: 900px) {
+    .card-container {
+        display: flex;
+        justify-content: center;
+        transform: translateY(-10%);
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+    .card-container {
+        transform: translateY(-15%);
+    }
+}
+
+/* -------------------- FEATURES -------------------- */
+
+/* -------------------- ADVICES -------------------- */
+
+/* -------------------- ABOUT -------------------- */
+
+@media (max-width: 700px) {
+    .about-content {
+        flex-direction: column;
+    }
+
+    .video {
+        width: 100%;
+        height: 34rem;
+        margin-bottom: 2.5rem;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1200px) {
+    .about-content {
+        flex-direction: column;
+    }
+
+    .video {
+        width: 100%;
+        height: 40rem;
+        margin-bottom: 2.5rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .about-card {
+        width: 100%;
+    }
+
+    .about-card-header {
+        margin-bottom: 1.5rem;
+    }
+
+    .item-header {
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
+
+    .item-description {
+        font-size: 1.8rem;
+    }
+}
+
+/* -------------------- CLIENTS -------------------- */
+
+@media (max-width: 700px) {
+    .brands {
+        justify-content: center;
+    }
+
+    .brand {
+        margin: 0 3rem 3rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .subscribe {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 800px) {
+    .form-input {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .subscribe-header {
+        max-width: fit-content;
+        text-align: center;
+        margin-bottom: 2.5rem;
+    }
+
+    .subscribe-form {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        border-radius: 0;
+        height: fit-content;
+        background-color: transparent;
+    }
+
+    .form-input {
+        border-radius: .5rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+}
+
+/* -------------------- CONTACT -------------------- */
+
+/* -------------------- FOOTER -------------------- */
+
+@media (max-width: 800px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-header-container {
+        margin-bottom: 2.5rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .footer-description {
+        font-size: 1.9rem;
+        margin-top: 1.2rem;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1100px) {
+    .footer-description {
+        font-size: 1.6rem;
+        margin-top: 1.2rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .footer-links-header {
+        font-size: 2.2rem;
+        line-height: 2.7rem;
+    }
+
+    .footer-link {
+        font-size: 1.8rem;
+        line-height: 3.3rem;
+    }
+    .footer-text {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 950px) {
+    .footer-links-header {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+    }
+
+    .footer-link {
+        font-size: 1.6rem;
+        line-height: 3rem;
+    }
+    .footer-text {
+        margin: 2rem 0;
+    }
+}

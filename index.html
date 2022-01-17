@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homework css 2</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./responsive/responsive.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="header" id="header">
+    <div class="container">
+      <div class="navbar">
+        <a class="navbar__logo" href="#">Relvise</a>
+
+        <nav class="navbar__links">
+          <a href="#" class="link">Home</a>
+          <a href="#" class="link">Product</a>
+          <a href="#" class="link">Pricing</a>
+          <a href="#" class="link">Contact</a>
+        </nav>
+
+        <div class="menu">
+          <img src="./img/icons/menu.png" alt="menu" class="menu__icon">
+
+          <div class="menu__content">
+            <a href="#" class="link">Home</a>
+            <a href="#" class="link">Product</a>
+            <a href="#" class="link">Pricing</a>
+            <a href="#" class="link">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <header class="header__main">
+        <h1 class="header-primary">Finance and Consultancy Solution</h1>
+        <p class="header__text">
+          We know how large objects will act, but things on a small scale.
+        </p>
+
+        <div class="header__buttons">
+          <a href="#" class="btn btn-primary btn_round btn-header">Get Quote Now</a>
+          <a href="#" class="btn btn-secondary btn_outline-green btn_round btn-header">Learn More</a>
+        </div>
+      </header>
+    </div>
+
+    <picture class="bg-container ibg">
+      <!--    <source srcset="./img/advice_cover.png" media="(max-width: 600px)">-->
+      <img class="bg-img" src="./img/cover.png" alt="cover image">
+    </picture>
+  </section>
+
+  <div class="container" id="cards">
+    <div class="card-container">
+      <div class="cards">
+        <article class="card-primary flex-col-between">
+          <img class="card__icon--small" src="./img/icons/bag.png" alt="card icon">
+
+          <h3 class="card__header--m">Environmental Consulting</h3>
+
+          <p class="card__text--m">
+            We focus on ergonomics and meeting you where you work.
+          </p>
+        </article>
+
+        <article class="card-primary flex-col-between">
+          <img class="card__icon--small" src="./img/icons/shop.png" alt="card icon">
+
+          <h3 class="card__header--m">Finance and consultancy</h3>
+
+          <p class="card__text--m">
+            Just type what's on your mind and we'll get you there.
+          </p>
+        </article>
+
+        <article class="card-primary flex-col-between">
+          <img class="card__icon--small" src="./img/icons/book.png" alt="card icon">
+
+          <h3 class="card__header--m">Financial Services Consulting</h3>
+
+          <p class="card__text--m">
+            the quick fox jumps over the lazy dog
+          </p>
+        </article>
+      </div>
+    </div>
+  </div>
+
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="header-secondary">Designing Better Experience</h2>
+
+        <p class="header-description">
+          Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics
+        </p>
+      </div>
+
+      <div class="cards cards-4">
+        <article class="card-secondary flex-col-between">
+          <img class="card__icon--small" src="./img/icons/people.png" alt="card icon">
+
+          <h3 class="card__header--l">972+</h3>
+
+          <p class="card__header--s">
+            Consumer Products
+          </p>
+        </article>
+
+        <article class="card-secondary flex-col-between">
+          <img class="card__icon--small" src="./img/icons/statistics.png" alt="card icon">
+
+          <h3 class="card__header--l">181+</h3>
+
+          <p class="card__header--s">
+            Financial Services
+          </p>
+        </article>
+
+        <article class="card-secondary flex-col-between">
+          <img class="card__icon--small" src="./img/icons/reward.png" alt="card icon">
+
+          <h3 class="card__header--l">98%</h3>
+
+          <p class="card__header--s">
+            Environmental
+          </p>
+        </article>
+
+        <article class="card-secondary flex-col-between">
+          <img class="card__icon--small" src="./img/icons/bag.png" alt="card icon">
+
+          <h3 class="card__header--l">746+</h3>
+
+          <p class="card__header--s">
+            Business & Finance
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="advices" id="advices">
+    <div class="container padding-top">
+      <div class="section-header">
+        <h2 class="header-secondary">Practice Advice</h2>
+
+        <p class="header-description">
+          Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics
+        </p>
+      </div>
+
+      <div class="cards cards-4">
+        <article class="card-tertiary flex-col-between">
+          <div class="card-tertiary__header-container">
+            <h3 class="card-tertiary__header card__header--s">A single source of truth</h3>
+
+            <p class="card__text--m">
+              Newton thought that light was made up of particles, but then it was discovered
+            </p>
+          </div>
+
+          <img class="card-tertiary__img" src="./img/advice_cover.png" alt="card icon">
+        </article>
+
+        <article class="card-tertiary flex-col-between">
+          <div class="card-tertiary__header-container">
+            <h3 class="card-tertiary__header card__header--s">Fastest way to organize</h3>
+
+            <p class="card__text--m">
+              “Quantum mechanics” is the description of the behaviour of matter
+            </p>
+          </div>
+
+          <img class="card-tertiary__img" src="./img/advice_cover-1.png" alt="card icon">
+        </article>
+
+        <article class="card-tertiary flex-col-between">
+          <div class="card-tertiary__header-container">
+            <h3 class="card-tertiary__header card__header--s">Fastest way to take action</h3>
+
+            <p class="card__text--m">
+              They describe a universe consisting of bodies moving
+            </p>
+          </div>
+
+          <img class="card-tertiary__img" src="./img/advice_cover-2.png" alt="card icon">
+        </article>
+
+        <article class="card-tertiary flex-col-between">
+          <div class="card-tertiary__header-container">
+            <h3 class="card-tertiary__header card__header--s">Work better together</h3>
+
+            <p class="card__text--m">
+              They finally obtained a consistent description of the behaviour
+            </p>
+          </div>
+
+          <img class="card-tertiary__img" src="./img/advice_cover-3.png" alt="card icon">
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header about-header">
+        <h2 class="header-secondary">Who We Are</h2>
+
+        <p class="header-description">
+          Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics
+        </p>
+      </div>
+
+      <div class="about-content">
+        <div class="video">
+          <div class="play-button">
+            <div class="play"></div>
+          </div>
+        </div>
+
+        <section class="about-card">
+          <div class="about-card-header">
+            <h2 class="header-secondary">Most trusted in our field</h2>
+
+            <p class="header-description">
+              Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.
+            </p>
+          </div>
+
+          <div class="about-item">
+            <img class="item-icon" src="./img/icons/people_primary.png" alt="icon">
+
+            <div class="item-description">
+              <h4 class="item-header">the quick fox jumps over the lazy dog</h4>
+
+              <p class="item-description">
+                Things on a very small scale ...
+              </p>
+            </div>
+          </div>
+
+          <div class="about-item">
+            <img class="item-icon" src="./img/icons/speed_primary.png" alt="icon">
+
+            <div class="item-description">
+              <h4 class="item-header">the quick fox jumps over the lazy dog</h4>
+
+              <p class="item-description">
+                Things on a very small scale ...
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <section class="clients" id="clients">
+    <div class="container">
+      <div class="brands">
+        <img class="brand" src="./img/icons/fa-brands_hooli.png" alt="hooli">
+        <img class="brand" src="./img/icons/fa-brands_lyft.png" alt="lyft">
+        <img class="brand" src="./img/icons/fa-brands_pied-piper-hat.png" alt="pied piper hat">
+        <img class="brand" src="./img/icons/fa-brands_aws.png" alt="aws">
+        <img class="brand" src="./img/icons/fa-brands_reddit-alien.png" alt="reddit alien">
+      </div>
+
+      <div class="subscribe">
+        <h3 class="subscribe-header">Subscribe For Latest Newsletter</h3>
+
+        <form class="subscribe-form">
+          <input class="form-input" type="email" placeholder="Your Email">
+
+          <button class="btn btn-primary btn-form">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="bottom"></div>
+  </section>
+
+  <section class="contact" id="contacts">
+    <div class="container">
+      <div class="section-header contact-header">
+        <h2 class="header-secondary">Get In Touch</h2>
+
+        <p class="header-description">
+          Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics
+        </p>
+      </div>
+
+      <div class="contact-cards">
+        <article class="contact-card flex-col-between">
+          <img src="./img/icons/phone.png" alt="icon" class="contact-icon">
+
+          <div class="contacts">
+            <p class="card-contact">georgia.young@example.com</p>
+            <p class="card-contact">georgia.young@ple.com</p>
+          </div>
+
+          <h4 class="card__header--s contact-card__header">Get Support</h4>
+
+          <button class="btn btn_outline-primary">Submit Request</button>
+        </article>
+
+        <article class="contact-card flex-col-between">
+          <img src="./img/icons/pin.png" alt="icon" class="contact-icon">
+
+          <div class="contacts">
+            <p class="card-contact">georgia.young@example.com</p>
+            <p class="card-contact">georgia.young@ple.com</p>
+          </div>
+
+          <h4 class="card__header--s contact-card__header">Get Support</h4>
+
+          <button class="btn btn_outline-primary">Submit Request</button>
+        </article>
+
+        <article class="contact-card flex-col-between">
+          <img src="./img/icons/plane.png" alt="icon" class="contact-icon">
+
+          <div class="contacts">
+            <p class="card-contact">georgia.young@example.com</p>
+            <p class="card-contact">georgia.young@ple.com</p>
+          </div>
+
+          <h4 class="card__header--s contact-card__header">Get Support</h4>
+
+          <button class="btn btn_outline-primary">Submit Request</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer " id="footer">
+    <div class="container footer-container">
+      <div class="footer-header-container">
+        <h3 class="footer-header">Consulting Agency For Your Business</h3>
+        <p class="footer-description">the quick fox jumps over the lazy dog</p>
+      </div>
+
+      <a href="#" class="btn btn-primary">Contact Us</a>
+    </div>
+
+    <div class="footer-links-container">
+      <div class="container footer-links">
+        <div class="footer-links-item">
+          <h3 class="footer-links-header">Company Info</h3>
+
+          <a href="#" class="footer-link">About Us</a>
+          <a href="#" class="footer-link">Carrier</a>
+          <a href="#" class="footer-link">We are hiring</a>
+          <a href="#" class="footer-link">Blog</a>
+        </div>
+
+        <div class="footer-links-item">
+          <h3 class="footer-links-header">Legal</h3>
+
+          <a href="#" class="footer-link">About Us</a>
+          <a href="#" class="footer-link">Carrier</a>
+          <a href="#" class="footer-link">We are hiring</a>
+          <a href="#" class="footer-link">Blog</a>
+        </div>
+
+        <div class="footer-links-item">
+          <h3 class="footer-links-header">Features</h3>
+
+          <a href="#" class="footer-link">Business Marketing</a>
+          <a href="#" class="footer-link">User Analytic</a>
+          <a href="#" class="footer-link">Live Chat</a>
+          <a href="#" class="footer-link">Unlimited Support</a>
+        </div>
+
+        <div class="footer-links-item">
+          <h3 class="footer-links-header">Resources</h3>
+
+          <a href="#" class="footer-link">IOS & Android</a>
+          <a href="#" class="footer-link">Watch a Demo</a>
+          <a href="#" class="footer-link">Customers</a>
+          <a href="#" class="footer-link">API</a>
+        </div>
+
+        <div class="footer-links-item">
+          <h3 class="footer-links-header">Get In Touch</h3>
+
+          <div class="link-with-icon">
+            <img src="./img/icons/bx_bx-phone.png" alt="icon" class="footer-link-icon">
+
+            <a href="#" class="footer-link">(480) 555-0103</a>
+          </div>
+
+          <div class="link-with-icon">
+            <img src="./img/icons/bx_bx-map.png" alt="icon" class="footer-link-icon">
+
+            <a href="#" class="footer-link">4517 Washington Ave. </a>
+          </div>
+
+          <div class="link-with-icon">
+            <img src="./img/icons/carbon_send-alt.png" alt="icon" class="footer-link-icon">
+
+            <a href="#" class="footer-link">debra.holt@example.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-container">
+      <p class="footer-text">Made With Love By Figmaland All Right Reserved </p>
+
+      <div class="footer-icons">
+        <img class="footer-icon" src="./img/icons/ant-design_facebook-filled.png" alt="facebook">
+        <img class="footer-icon" src="./img/icons/ant-design_instagram-outlined.png" alt="instagram">
+        <img class="footer-icon" src="./img/icons/ant-design_twitter-outlined.png" alt="twitter">
+        <img class="footer-icon" src="./img/icons/carbon_logo-youtube.png" alt="youtube">
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
