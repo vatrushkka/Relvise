@@ -379,16 +379,6 @@
         width: 100%;
         margin: 0;
     }
-
-    /*.subscribe {*/
-    /*    display: flex;*/
-    /*    justify-content: space-between;*/
-    /*    align-items: center;*/
-    /*    margin: 2rem 3.2rem;*/
-    /*    padding: 3rem 5rem;*/
-    /*    background-color: #17213C;*/
-    /*    border-radius: 2px;*/
-    /*}*/
 }
 
 @media (max-width: 1200px) {
