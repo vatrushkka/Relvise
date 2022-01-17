@@ -1,5 +1,11 @@
 /* ------------------------------ GENERAL ------------------------------ */
 
+@media (min-width: 0px) and (max-width: 550px) {
+    html {
+        font-size: 8.5px;
+    }
+}
+
 @media (min-width: 1600px) {
     html {
         font-size: 13px;
@@ -362,6 +368,27 @@
     .brand {
         margin: 0 3rem 3rem;
     }
+}
+
+@media (min-width: 0px) and (max-width: 550px) {
+    .clients .container {
+        max-width: 100%;
+    }
+
+    .subscribe {
+        width: 100%;
+        margin: 0;
+    }
+
+    /*.subscribe {*/
+    /*    display: flex;*/
+    /*    justify-content: space-between;*/
+    /*    align-items: center;*/
+    /*    margin: 2rem 3.2rem;*/
+    /*    padding: 3rem 5rem;*/
+    /*    background-color: #17213C;*/
+    /*    border-radius: 2px;*/
+    /*}*/
 }
 
 @media (max-width: 1200px) {
